@@ -164,17 +164,22 @@ position: relative;
   align-items:center;
   padding: 170px 10px 0;
 }
-@media(max-width:767px){
+@media(max-width:990px){
   .home .container{
     flex-direction: column;
     text-align: center;
+    padding-top: 200px;
+  }
+}
+@media(max-width:400px){
+  .home .container{
     padding-top: 100px;
   }
 }
 .home .container .info{
  flex-basis:42%;
 }
-@media(max-width:767px){
+@media(max-width:990px){
   .home .container .info{
     order:1;
   }
