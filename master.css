@@ -135,7 +135,7 @@ header .container nav ul li{
 }
 header .container nav ul li a{
   color:var(--white-color);
-  margin: 0 15px;
+  margin: 0 10px;
   padding:5px 10px;
   border-radius:50px;
  font-size: 15px;
