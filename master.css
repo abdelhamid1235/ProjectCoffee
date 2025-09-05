@@ -212,6 +212,11 @@ position: relative;
 .home .container .image{
   width: 400px;
 }
+@media (max-width:400px) {
+  .home .container .image{
+  width: 300px;
+}
+}
 .home .container .image img{
   position:relative;
   animation: animation-imgs 4s linear infinite;
